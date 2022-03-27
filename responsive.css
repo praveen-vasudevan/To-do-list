@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, #0E7FA3, #6F40F4);
+}
+
+.heading{
+    height: 15vh;
+    width: auto;
+    color: wheat;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-div{
+    height: 20vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-input{
+    height: 2rem;
+    width: 15rem;
+    border: none;
+    border-radius: .25rem;
+    margin-right: 2%;
+    font-size: 1.175rem;
+    padding-left: 2%;
+
+}
+.add,
+.delete{
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    border-radius: .25rem;
+    background-color: orange;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.to-do-list{
+    min-height: 65vh;
+    width: 100%;
+    margin: auto;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.list-elements{
+    list-style: none;
+    min-height: 65vh;
+    width: 80%;
+    margin: auto;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+.li-div{
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 1%;
+    border: none;
+    border-radius: .25rem;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.li-div li{
+    height: 2rem;
+    width: 15rem;
+    background-color: palegoldenrod;
+    margin-right: 2%;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2%;
+    font-size: 1.25rem;
+}
+
+.display-none{
+    display: none;
+}
